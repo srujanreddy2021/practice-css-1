@@ -1,0 +1,159 @@
+/* https://www.figma.com/file/SbEiQKRlkoSJpceJXcVgx4/Practice-landing?node-id=1%3A3162 */
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  color: #18191f;
+}
+
+p {
+  font-size: 1.125rem;
+  line-height: 2;
+}
+
+/* *header */
+
+header {
+  background-color: #f6f9ff;
+  padding: 1rem 0;
+}
+
+nav {
+  display: flex;
+}
+
+.logo {
+  display: flex;
+  flex: auto;
+  margin-left: 10%;
+}
+
+nav ul {
+  list-style: none;
+}
+nav ul li {
+  margin: 0.3rem 1rem;
+  display: inline-block;
+  font-size: 0.875rem;
+  font-weight: bold;
+}
+
+nav .download-option {
+  margin-right: 10%;
+}
+nav .logo__name {
+  width: 68px;
+  margin: 0.3rem 0.5rem;
+}
+/* *Overview */
+#overview {
+  background-color: #f6f9ff;
+  display: flex;
+}
+.overview__content {
+  flex: auto;
+  margin: 10.5rem 0 6rem 10%;
+}
+/* rem anta telusu kada telde*/
+.overview__content h1 {
+  font-size: 4.5rem;
+}
+.overview__content button {
+  color: #fff;
+  background-color: #8c30f5;
+  margin: 2rem 0;
+  padding: 1rem 2.6rem;
+  border: 0;
+  border-radius: 8px;
+  font-size: 1.25rem;
+}
+.overview__content button:hover {
+  background-color: #8c30f5d8;
+}
+
+.overview__mockup {
+  /* margin: 6rem 8% 0 0; */
+  position: absolute;
+  right: 6%;
+  top: 8rem;
+}
+
+/* *feature-1 */
+#feature-1 {
+  margin: 15rem 10% 0 10%;
+  text-align: center;
+}
+
+.feature__title {
+  margin: auto;
+  padding: 0.5rem 0;
+  width: 35rem;
+}
+.feature__title__h1 {
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+.feature__list {
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+.feature__list div {
+  width: 20rem;
+  margin: 1rem auto;
+}
+.feature__list__content__p {
+  font-size: 1rem;
+}
+
+/* *testimonial */
+#testimonial {
+  background-color: #d5fafc;
+}
+.svg-main-quotation {
+  position: absolute;
+  z-index: 0;
+}
+/* *stats */
+#stats {
+  display: flex;
+  margin: 5rem 10%;
+  flex-wrap: wrap;
+}
+.stats__main {
+  flex: 1;
+}
+.stats__main h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+.stats__num {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+}
+.stats__num__card {
+  width: 16rem;
+  display: flex;
+  align-items: center;
+  margin: auto auto 2.5rem auto;
+}
+
+.stats__num__card span {
+  display: inline-block;
+  margin: 0 1rem;
+}
+.stats__num__content h2 {
+  font-size: 1.75rem;
+  font-weight: 800;
+}
+.stats__num__content p {
+  font-size: 1rem;
+}
