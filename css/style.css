@@ -114,18 +114,72 @@ nav .logo__name {
 }
 
 /* *testimonial */
+
 #testimonial {
   background-color: #d5fafc;
 }
 .svg-main-quotation {
   position: absolute;
   z-index: 0;
+  margin: 5rem 10% 0 10%;
 }
+
+.testimonial-div {
+  position: relative;
+  z-index: 2;
+  margin: 5rem 16% 0 16%;
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: auto 40% auto auto;
+  grid-template-rows: auto auto auto auto auto auto auto;
+}
+.testimonail__card__content {
+  display: flex;
+  margin: 1rem 0;
+}
+.testimonail__card__content div {
+  margin-left: 0.5rem;
+}
+
+.testimonial__title {
+  /* width: 27rem; */
+  padding-top: 7.5rem;
+  grid-column: span 2;
+  /* https://css-tricks.com/snippets/css/complete-guide-grid/ */
+}
+.testimonial__title__h1 {
+  font-size: 3rem;
+  font-weight: 800;
+}
+/* edi nenu repu alochinchi try chesta best approach epudu feature 2 try chesdam */
+.testimonial__card__hubspot,
+.testimonial__card__airbnb,
+.testimonial__card__bms {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+}
+.testimonial__card__airbnb {
+  margin-top: 10rem;
+  grid-row: span 2;
+  grid-column: span 2;
+}
+.testimonial__card__hubspot {
+  grid-row: span 2;
+  grid-column: 2;
+}
+.testimonial__card__bms {
+  grid-row: span 3;
+  grid-column: 3;
+}
+/* ok */
 /* *stats */
 #stats {
   display: flex;
   margin: 5rem 10%;
   flex-wrap: wrap;
+
+  align-items: center;
 }
 .stats__main {
   flex: 1;
@@ -157,3 +211,107 @@ nav .logo__name {
 .stats__num__content p {
   font-size: 1rem;
 }
+
+/* *feaure-2 */
+
+#feature-2 {
+  margin: 5rem 10%;
+  display: flex;
+}
+
+/* margin: 0 auto*/
+
+.feature-2__mockup {
+  background-color: #f1e4ff;
+  width: 540px;
+  height: 540px;
+  overflow: hidden;
+  text-align: center;
+}
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/transform */
+.feature-2__mockup img {
+  transform: translateY(56px);
+}
+.feature-2__content {
+  width: 32rem;
+  margin: auto 0 auto 1.75rem;
+  padding: 3rem;
+}
+.feature-2__content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+/* sara nevu type chei margin-right: 0.5rem; ok unnava*/
+.feature-2__content h2 {
+  margin: 2rem 0 0 0;
+  color: #8c30f5;
+  font-size: 1.25rem;
+  margin-right: 0.5rem;
+}
+/* *feature-3 */
+/* margin: 0 10% */
+#feature-3 {
+  margin: 3rem 10%;
+}
+/* */
+.feature-3__content {
+  display: flex;
+  margin: 3rem 0;
+}
+/*  */
+.feature-3__content h1 {
+  flex: 1;
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+.feature-3__content p {
+  flex: 1;
+}
+.feature-3__img img {
+  width: 100%;
+}
+/* *cta */
+/* display:flex; */
+#cta {
+  display: flex;
+  overflow: hidden;
+  background-color: #2ec5ce;
+}
+/* flex:1 */
+.cta__content {
+  flex: 1;
+  margin-left: 10%;
+  padding: 4.25rem 0 0 0;
+}
+.cta__content h1 {
+  font-size: 3rem;
+  font-weight: 800;
+}
+.cta__content h3 {
+  margin: 3rem 0 0.5rem 0;
+  font-size: 1.125rem;
+}
+
+/* diplay:flex */
+.cta__image {
+  flex: 1;
+  display: flex;
+}
+.cta__image__mockup-2 {
+  transform: translate(10px, -100px);
+}
+.cta__image__mockup-1 {
+  width: 232px;
+  height: 464;
+  transform: translateY(150px);
+}
+/* *footer */
+footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #000;
+  color: #fff;
+  padding: 4rem 10%;
+}
+/* repu chedam migitadi css chudu */
+/* eroju ki chalu ok */
